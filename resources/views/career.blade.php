@@ -53,7 +53,7 @@
         </div>
     </div>
 
-    <div class="relative w-full grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto px-2 gap-4">
+    <div data-aos='fade-up' data-aos-duration='1000' class="relative w-full grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto px-2 gap-4">
         @foreach ($our_careers as $our_career)
             <img src={{ asset($our_career->image) }} alt=""
                 class='w-full h-full object-cover object-center' />
