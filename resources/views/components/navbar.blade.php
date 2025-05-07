@@ -3,7 +3,7 @@
     <div class="flex justify-between items-center py-3 px-3 max-w-7xl mx-auto bg-black/80 bg-blend-multiply">
         <div class="flex items-center">
             <a href="/" class="text-xl font-bold text-gray-800">
-                <img src="{{ asset($navLogo->icon) }}" alt="Logo" class="w-10" />
+                <img src="{{ asset($navLogo->icon) }}" alt="Logo" class="w-10 h-10" />
             </a>
         </div>
 
