@@ -12,6 +12,30 @@
                 <span class="hidden sm:block">Chinese</span>
             </a>
         </div>
+        {{-- <div x-data="{ open: false }" class="relative z-[999]">
+            <button @click="open = !open" class="flex items-center gap-2 border border-[#EBB81B] text-[12px] py-1 px-3 rounded-sm w-full">
+                <img src="{{ asset('assets/images/' . (app()->getLocale() === 'ch' ? 'ch_flag.png' : 'en_flag.png')) }}" alt="" class="w-6 h-4">
+                <span class="hidden sm:block">
+                    {{ app()->getLocale() === 'ch' ? 'Chinese' : 'English' }}
+                </span>
+                <svg :class="{ 'rotate-180': open }" class="w-4 h-4 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M7 10l5 5 5-5H7z"/>
+                </svg>
+            </button>
+
+            <div x-show="open" x-transition @click.away="open = false"
+                 class="absolute mt-2 w-full z-50 bg-white border border-[#EBB81B] rounded-sm shadow-md">
+                <a href="{{ route('lang.switch', 'en') }}" class="flex gap-2 items-center py-2 px-3 hover:bg-[#EBB81B] hover:text-white text-sm">
+                    <img src="{{ asset('assets/images/en_flag.png') }}" alt="English" class="w-6 h-4">
+                    English
+                </a>
+                <a href="{{ route('lang.switch', 'ch') }}" class="flex gap-2 items-center py-2 px-3 hover:bg-[#EBB81B] hover:text-white text-sm">
+                    <img src="{{ asset('assets/images/ch_flag.png') }}" alt="Chinese" class="w-6 h-4">
+                    Chinese
+                </a>
+            </div>
+        </div> --}}
+
 
         <div>
             <button class="lg:hidden text-white" data-drawer-target="drawer-example" type="button" data-drawer-show="drawer-example" aria-controls="drawer-example">

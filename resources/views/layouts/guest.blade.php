@@ -7,7 +7,7 @@
 
         <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}" />
 
-        <title>Xin Yuanli | Login</title>
+        <title>Xin Yuan Li | Login</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
