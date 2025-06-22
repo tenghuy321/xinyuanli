@@ -14,27 +14,6 @@
                         <a href="{{ route($item->link) }}" class="block transition duration-200 {{ Route::is($item->link . '*') ? 'active font-semibold' : '' }}">{{ $item->title[app()->getLocale()] }}</a>
                     </li>
                 @endforeach
-                {{-- <li>
-                    <a href="{{ route('home') }}" class="block transition duration-200 {{ Route::is('home') ? 'active font-semibold' : '' }}">{{ __('messages.Home') }}</a>
-                </li>
-                <li>
-                    <a href="{{ route('service') }}" class="block transition duration-200 {{ Route::is('service*') ? 'active font-semibold' : '' }}">{{ __('messages.Our Services') }}</a>
-                </li>
-                <li>
-                    <a href="{{ route('gallery-image') }}" class="block transition duration-200 {{ Route::is('gallery-image') ? 'active font-semibold' : '' }}">{{ __('messages.Gallery') }}</a>
-                </li> --}}
-                {{-- <li>
-                    <a href="{{ route('csr') }}" class="block transition duration-200 {{ Route::is('csr') ? 'active font-semibold' : '' }}">{{ __('messages.csr') }}</a>
-                </li> --}}
-                {{-- <li>
-                    <a href="{{ route('ourprofile') }}" class="block transition duration-200 {{ Route::is('ourprofile') ? 'active font-semibold' : '' }}">{{ __('messages.Our Profile') }}</a>
-                </li>
-                <li>
-                    <a href="{{ route('career') }}" class="block transition duration-200 {{ Route::is('career') ? 'active font-semibold' : '' }}">{{ __('messages.Career') }}</a>
-                </li>
-                <li>
-                    <a href="{{ route('contact') }}" class="block transition duration-200 {{ Route::is('contact') ? 'active font-semibold' : '' }}">{{ __('messages.Contact Us') }}</a>
-                </li> --}}
             </ul>
         </div>
     </div>

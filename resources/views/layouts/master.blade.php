@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="{{ asset('assets/images/logo.png') }}" />
     <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}" />
 
     <title>Xin Yuan Li</title>
@@ -24,8 +25,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
     <script src="https://cdn.ckeditor.com/4.25.1/standard/ckeditor.js"></script>
-
-
 
     <style>
         .nav_link li a {
@@ -142,7 +141,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="{{ app()->getLocale() === 'en' ? 'font-inter' : 'font-kantumruy' }}">
+<body class="" style="font-family: "Inter", sans-serif;">
 
     <x-header :socials="$socials" :nav="$nav" :navLogo="$navLogo" />
     <x-navbar :nav="$nav" :navLogo="$navLogo" />
