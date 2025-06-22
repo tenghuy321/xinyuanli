@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="{{ asset($navLogo->icon) }}" />
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}" />
 
     <title>Xin Yuan Li</title>
 
@@ -23,6 +23,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+    <script src="https://cdn.ckeditor.com/4.25.1/standard/ckeditor.js"></script>
+
 
 
     <style>
