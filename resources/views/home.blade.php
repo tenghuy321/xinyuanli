@@ -113,8 +113,7 @@
 
         @if ($homePage && $homePage->active == 1)
             <div id='who'>
-                <hr
-                    style="height: 8px; border: none; background: linear-gradient(90deg, #BA7F14 0%, #FAF088 47.5%, #EBB81B 100%)" />
+                <hr style="height: 8px; border: none; background: linear-gradient(90deg, #BA7F14 0%, #FAF088 47.5%, #EBB81B 100%)" />
                 <div class='flex flex-col space-y-10 gap-4 py-10 md:py-16 px-4 lg:px-32 2xl:px-40 overflow-hidden'
                     style="background: rgba(30, 30, 30, 0.95)">
                     <div data-aos='fade-right' data-aos-duration='1000' class='text-[30px] text-gradient font-[700]'>
@@ -136,7 +135,7 @@
     </section>
 
 
-    <section class='relative top-0' style="{{ ($homePage && $homePage->active == 1) ? 'top: -170px;' : 'top: 0;' }}">
+    <section class='relative top-0' style="{{ ($homePage && $homePage->active == 1) ? 'top: -10px;' : 'top: 0;' }}">
         @if ($homeService && $homeService->active == 1)
             {{-- our service --}}
             <div class='max-w-7xl mx-auto px-4 py-10 text-[12px] md:text-[14px] overflow-hidden' id='our_services'>
@@ -151,7 +150,7 @@
                 <div class='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-10'>
 
                     @foreach ($listServices as $listService)
-                        <div class='relative rounded-[10px] bg-[#EAE6DCCC] py-20' data-aos='fade-up'
+                        <div class='relative rounded-[10px] bg-[#EAE6DCCC] pt-4 pb-20 md:py-20' data-aos='fade-up'
                             data-aos-duration='1000'>
                             <p class='py-1 px-4 text-[16px] md:text-[18px] font-[700] text-[#1A1916]'
                                 style="background: linear-gradient(90deg, #EBB81B 0%, #DFAD16 45.5%, #FAF088 100%)">
